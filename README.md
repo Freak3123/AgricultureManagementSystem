@@ -1,6 +1,46 @@
 # AgricultureManagementSystem
 This is a simple project entitled Agriculture Management System. This web application was created in Python using the Django Framework. The data for the labor is managed by this application. To provide the end-users with a pleasing user interface and a better experience while using the application, I used various libraries on this website.
 
+# Features
+
+1. **Login Page**
+
+       Home/Dashboard Page
+
+2. **Department Management**
+
+       Add New Department
+
+       List All Departments
+
+       Update Department Details
+
+       Delete Department Details
+3. **Position Management**
+
+       Add New Position
+
+       List All Positions
+
+       Update Position Details
+
+       Delete Position Details
+4. **Employees Management**
+
+        Add New Employee
+
+        List All Employees
+
+        Update Employee Details
+
+        View Employee Details
+
+        Delete Employee Details
+
+5. **Logout**
+
+6. **User Authentication**
+
 # Installation
 The system is built using the Django web framework and requires Python 3.7 or later to run. Follow the steps below to install the system:
 
@@ -9,17 +49,13 @@ The system is built using the Django web framework and requires Python 3.7 or la
 
 `git clone https://github.com/Freak3123/AgricultureManagementSystem.git`
 
-2. Create a virtual environment using the following command:
+2. Open your Terminal or Command Prompt window and ensure that you have added "python" and "pip" in your environment variables.
 
-`python3 -m venv env`
+3. Then, navigate to the extracted source code folder by changing your working directory.
 
-3. Activate the virtual environment using the following command:
+4. Install Django using the following command:
 
-`source env/bin/activate`
-
-4. Install the dependencies using the following command:
-
-`pip install -r requirements.txt`
+`pip install Django`
 
 5. Migrate the database using the following command:
 
@@ -29,7 +65,15 @@ The system is built using the Django web framework and requires Python 3.7 or la
 
 `python manage.py runserver`
 
-The system should now be up and running at http://localhost:8000/.
+The system should now be up and running at http://localhost:8000/ or http://127.0.0.1:8000/.
+
+# Access Information
+
+<h3> SuperUser </h3>
+
+***Username:*** admin
+
+***Password:*** admin123
 
 # Usage
 
